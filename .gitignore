@@ -1,25 +1,19 @@
-# Byte-compiled / optimized / DLL files
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Data files & Databases
-data/*.csv
-data/*.json
-data/*.parquet
-database/*.db
-database/*.sqlite
-
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# Spark logs & metastore
-metastore_db/
-derby.log
-spark-warehouse/
-
-# IDE / OS
+# IDE files
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
+
+# Generated data
+*.log
