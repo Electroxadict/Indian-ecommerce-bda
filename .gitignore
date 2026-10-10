@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files & Databases
+data/*.csv
+data/*.json
+data/*.parquet
+database/*.db
+database/*.sqlite
+
+# Environment variables
+.env
+
+# Spark logs & metastore
+metastore_db/
+derby.log
+spark-warehouse/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
